@@ -17,7 +17,8 @@
 ## 선택
 ChatGPT를 후속 STEP 3~4의 실험 모델로 선정했다. 코드에 직접 나타난 문제와 실행 환경에 따라 달라질 수 있는 결과를 구분한 점이 선정 근거다.
 
-## 추가 비교 실험 계획 (미실행)
-1. 새 대화 A: 시스템 지침만 적용, 예시 없이 동일 PR 리뷰 (Zero-shot)
-2. 새 대화 B: 동일 시스템 지침과 예시 3건 적용, 동일 PR 리뷰 (Few-shot)
-3. 응답을 위 5개 기준으로 블라인드 평가하고 원문을 보존한다.
+## 추가 비교 실험 (완료)
+- 사용자 제공 실제 응답을 바탕으로 Zero-shot **24/25**, Few-shot **23/25**로 평가했다. 각각 1회 수행했으며 일반화할 수 없다.
+- 상세 비교와 실제 원문 발췌: [zero-vs-few-shot.md](zero-vs-few-shot.md)
+- 초기 3모델 비교의 Claude·Gemini 원문 전문은 현재 저장소 문서에서 확인되지 않으므로, 점수별 직접 인용을 임의로 만들지 않는다. 원본 `테스트.txt`를 확보해 점수별 증거를 보완해야 한다.
+- 입력 양식: [input-template.md](input-template.md), Few-shot 예시: [few-shot-transcripts.md](few-shot-transcripts.md).
