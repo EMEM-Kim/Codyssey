@@ -66,3 +66,9 @@ STEP 4의 18턴에서는 명백한 환각, 문맥 단절, 동일 질문의 핵�
 ```
 
 
+
+## 동료평가 보완 문서
+- [prompt-guide.md](prompt-guide.md): 프롬프트 유형, 페르소나 설계 이유, v1→v2 문장 비교, 운영 및 문맥 관리
+- [few-shot-transcripts.md](few-shot-transcripts.md): Few-shot 입력·기대 출력 3개 전문 (실제 독립 실행 결과 아님)
+- [input-template.md](input-template.md): JSON 재사용 템플릿
+- [hallucination-checklist.md](hallucination-checklist.md): A/B/Fail 기준과 5개 원문 질문
